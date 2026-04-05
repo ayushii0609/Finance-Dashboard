@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: transparent; 
+  transition: all 0.3s ease;
+}
+
+.navbar-controls button {
+  margin-left: 0.75rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: transform 0.1s active;
+}
+
+.navbar-controls button:active {
+  transform: scale(0.95);
+}
+
+body.dark {
+  background-color: #0f172a; 
+  color: #f8fafc;
+}
+
+body.light {
+  background-color: #f8fafc; 
+  color: #0f172a;
+}
