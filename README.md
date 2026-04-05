@@ -26,7 +26,7 @@ To run this project locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [YOUR_GITHUB_REPO_LINK_HERE]
+    git clone https://github.com/ayushii0609/Finance-Dashboard
     ```
 2.  **Install dependencies:**
     ```bash
